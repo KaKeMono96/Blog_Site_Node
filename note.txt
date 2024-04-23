@@ -1,0 +1,36 @@
+mongo db database
+
+
+SQL                                NoSQL
+
+Tables                              Collections
+Rows                                Documents
+Columns                             Fields
+
+MySQL                               mongoDB
+ 
+name        usename                 {
+1 ka ke     kake                        "id": "3",
+3wailin     wai-lin-1                   "age": 24,
+4kiki       ki-ki-2                     "name":"John"
+                                    } 
+
+mongoDB Atlas 
+
+FREE => AWS=>singapore =>username  kake => pass  1kake123
+
+
+connect => Driver = node.js / Version = 5.5 or later
+// database url => copy "mongodb+srv://kake:test123@cluster0.bw63nql.mongodb.net/?retryWrites=true&w=majority"
+
+
+Schema (title(string),intro(string));
+
+Model -> save, get , update, delete
+
+
+express ejs layouts => npmjs.com
+
+npm i express-ejs-layouts => install
+
+Usage => 
