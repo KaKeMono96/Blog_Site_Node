@@ -880,8 +880,8 @@ app.use(express.urlencoded({extended:true}));
 let mongoUrl = "mongodb+srv://yuki:test123@cluster0.w74klag.mongodb.net/?retryWrites=true&w=majority";
 mongoose.connect(mongoUrl).then(()=>{
     console.log('connected to db')
-    app.listen(3000, ()=>{
-        console.log('app is running on port 3000');
+    app.listen(8080, ()=>{
+        console.log('app is running on port 8080');
     }); 
 }).catch(e =>{
     console.log(e)
